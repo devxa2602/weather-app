@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Weather Page</title>
+</head>
+<body>
+    <div>
+        <form action="/api" method="POST">
+            <h1>Weather for <%= city %></h1>
+            <p>The climate of <%=city %> is <%=weather%><img src=<%=icon %>></p>
+            <p>The temperature is <%=temperature%></p>
+            <button>Save data</button>
+        </form>
+    </div>
+</body>
